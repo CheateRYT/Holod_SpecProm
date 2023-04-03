@@ -228,6 +228,8 @@ textarea {
 }
 .head_time .button_back_call {
   margin-top: 15px;
+  color: #01b3f2;
+  cursor: pointer;
 }
 .head_time .time_work {
   margin-top: 15px;
@@ -467,6 +469,71 @@ textarea {
   font-size: 14px;
   color: #FFF;
   cursor: pointer;
+}
+
+.back_fixed {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  top: 0;
+  z-index: 2000;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+.back_fixed .form-lw-thanks {
+  text-align: center;
+  font-size: 30px;
+  margin: 50px auto;
+}
+.back_fixed .js-form-lw {
+  width: 300px;
+  position: relative;
+  background: #FFF;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  top: 100px;
+  left: calc(50% - 150px);
+}
+.back_fixed .title-form-lw {
+  font-size: 20px;
+}
+.back_fixed input {
+  width: calc(100% - 2px);
+  border: 1px solid #ddd;
+  height: 40px;
+  text-indent: 10px;
+  border-radius: 3px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.back_fixed button {
+  outline: inherit;
+  cursor: pointer;
+  background-color: #1353ae;
+  background-image: linear-gradient(0deg, #01b3f2 0%, #01b3f2 100%);
+  border: 2px solid rgba(238, 238, 238, 0.37);
+  box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.34);
+  border-radius: 4px;
+  width: calc(100% - 2px);
+  margin-top: 20px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  transition: 0.3s;
+  color: #fff;
+  text-transform: uppercase;
+}
+.back_fixed button:hover {
+  opacity: 0.5;
+}
+.back_fixed .close_form {
+  position: absolute;
+  cursor: pointer;
+  right: -40px;
+  top: -40px;
 }
 
 /*# sourceMappingURL=style.css.map */
