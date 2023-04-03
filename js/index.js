@@ -11,8 +11,8 @@ $(document).ready(function(){
     'color-error': 'tomato',
     'number-of-parents': 0,
     'post-file' : 'post.php',
-    'emails' : 'email@mail.ru',
-    'from' : 'from@mail.ru',
+    'emails' : 'binarnyopcioni@gmail.com',
+    'from' : 'comimperator2288@gmail.com',
   });
 });
 

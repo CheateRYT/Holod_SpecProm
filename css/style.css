@@ -484,6 +484,7 @@ textarea {
 }
 .back_fixed .form-lw-thanks {
   text-align: center;
+  display: none;
   font-size: 30px;
   margin: 50px auto;
 }

@@ -1,7 +1,5 @@
-<? include('header.php') ?>
 
-
-<div class="big_image">
+    <div class="big_image">
       <div class="content">
         <h1 class="big_title">
           <b
@@ -244,6 +242,3 @@
       </div>
       <div class="clear"></div>
     </div>
-
-
-<? include('footer.php') ?>
